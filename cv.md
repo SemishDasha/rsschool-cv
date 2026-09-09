@@ -28,7 +28,7 @@ HTML/CSS
 ***2021 - 2022***
 - Insite-course
 Web-design on Tilda 
-*2021*
+***2021***
 
 ### WORK EXPERIENCE
 
