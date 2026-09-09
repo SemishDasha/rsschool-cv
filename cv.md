@@ -35,3 +35,5 @@ Web-design on Tilda
 **Technical Support Engineer** 
 
 AZATI - [*2024 - current time*]
+
+:white_flower: :white_flower: :white_flower: :white_flower:
