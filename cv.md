@@ -12,14 +12,25 @@
 Hardworking, creative and goal oriented. Ambitious, eager to keep growing and evolving. Constantly developing new skills and abilities.
 
 ### LANGUAGES
-Russian - Native
+Russian - ***Native**
 
-English - Intermidiate (B1)
+English - ***Intermidiate (B1)***
 
 ### PROGRAMMING SKILLS
 - Salesforce Development OOP
 
 - HTML/CSS
+
+- SQL
+
+### SOFT SKILLS
+- Ability to work in a team
+
+- Сommunicability
+
+- Hardworking
+
+- Respectful attitude
 
 ### EDUCATION
 - Yanka Kupala State University of Grodno Information Technology Software
