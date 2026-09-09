@@ -17,9 +17,9 @@ Russian - Native
 English - Intermidiate (B1)
 
 ### PROGRAMMING SKILLS
-Salesforce Development OOP
+- Salesforce Development OOP
 
-HTML/CSS
+- HTML/CSS
 
 ### EDUCATION
 - Yanka Kupala State University of Grodno Information Technology Software
