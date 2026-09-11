@@ -6,7 +6,7 @@
 }
 
 html {
-    background-image: url(assets/images/background.png);
+    background-image: url(assets/images/background.png);/*фоновое изображения для страницы*/
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -15,16 +15,62 @@ html {
 
 body {
     font-family: 'Cousine-Regular', sans-serif;
-}
-
-header,
-h4,
-p {
     color:aliceblue;
 }
 
+header h1 {
+    font-size: 100px;
+}
+/*Настройка горизонтального центрирования на странице*/
 .wrapper {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.round-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/*Замер иконок для десктопа*/
+.icon {
+    width: 28px;
+    height: 28px;
+    transition: all 0.3s ease;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+/*Настройка элементов маркированного списка, чтобы они были в одной строке*/
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+li p {
+    margin: 0;
+}
+
+
+/*Размер иконок для мобильных устройств*/
+@media (max-width: 768px) {
+    .icon {
+        width: 22px;
+        height: 22px;
+    }
+    header h1 {
+        font-size: 60px;
+    }
+    .round-image {
+        width: 150px;
+        height: 150px;
+    }
 }
