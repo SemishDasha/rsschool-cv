@@ -6,7 +6,7 @@
 
 |Telegram|Email|Discord|
 |:---|:---|:---|
-| :iphone: [@semishdarya](https://t.me/semishdarya) | :envelope: [mail](mailto:semisdasa@gmail.com) | :desktop_computer: Discord: dashasemish |
+| :iphone: [@semishdarya](https://t.me/semishdarya) | :envelope: [mail](mailto:semisdasa@gmail.com) | :desktop_computer: [Discord](https://discord.gg/wPncwvdH) |
 
 ### PROFILE Summary
 Hardworking, creative and goal oriented. Ambitious, eager to keep growing and evolving. Constantly developing new skills and abilities.
