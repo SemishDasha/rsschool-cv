@@ -5,21 +5,14 @@
     font-style: normal;
 }
 
+/* Общие стили */
 html {
     background-image: url(assets/images/background.png);/*фоновое изображения для страницы*/
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-}
-
-body {
-    font-family: 'Cousine-Regular', sans-serif;
-    color:aliceblue;
-}
-
-header h1 {
-    font-size: 100px;
+    scroll-behavior: smooth;
 }
 /*Настройка горизонтального центрирования на странице*/
 .wrapper {
@@ -28,26 +21,24 @@ header h1 {
     margin-right: auto;
 }
 
-.round-image {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: 20px;
-}
-
-/*Замер иконок для десктопа*/
-.icon {
-    width: 28px;
-    height: 28px;
-    transition: all 0.3s ease;
+body {
+    font-family: 'Cousine-Regular', sans-serif;
+    color:aliceblue;
 }
 
 h2 {
+    font-size: 30px;
     margin-top: 50px;
 }
 
-/*Настройка элементов маркированного списка, чтобы они были в одной строке*/
+p {
+    font-size: 20px;
+}
+
+ul {    
+    padding-left: 0;
+}
+
 li {
     display: flex;
     align-items: center;
@@ -59,18 +50,151 @@ li p {
     margin: 0;
 }
 
+a:hover {
+    color: grey;
+}
 
+/* Шапка */
+header h1 {
+    font-size: 100px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.round-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Навигация */
+.nav-link {
+    padding-top: 20px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: aliceblue;
+}
+
+.nav-link li {
+    display: inline-block;
+}
+
+/* Иконки */
+.icon {/*Размер иконок для десктопа*/
+    width: 28px;
+    height: 28px;
+    transition: all 0.3s ease;
+}
+
+.rs-logo {
+    width: 150px;
+    height: auto;
+}
+/* Для блока скиллы и опыт работы */
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.column {
+    flex: 1;
+}
+
+.content p {
+    margin-bottom: 50px;
+}
+
+.custom-list {
+    list-style-type: none;
+}
+
+.custom-list li::before {
+    content: "\2705";
+}
+
+.flower-list {
+    list-style-type: none;
+}
+
+.flower-list li::before {
+    content: "\1F338";
+}
+
+/* Блок образование */
+.education {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    gap: 10px;
+}
+
+/* Подвал */
+.bottom-column {
+    flex: 0 0 calc(33.3% - 10px);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* Блок с примером кода */
+pre {
+    background-color: black;
+    padding: 20px;
+    padding-left: 0;
+    border-radius: 20px;
+    overflow-x: auto;
+    font-family: 'Cousine-Regular', monospace;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+code {
+    color: aliceblue;
+}
+
+/* Мобильная версия */
 /*Размер иконок для мобильных устройств*/
 @media (max-width: 768px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
     .icon {
         width: 22px;
         height: 22px;
     }
-    header h1 {
-        font-size: 60px;
+
+    .topbar h1{
+        width: 60%;
     }
+
     .round-image {
-        width: 150px;
-        height: 150px;
+        width: 40%;
+        height: auto;
+        padding: 0 15px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 10px;
     }
 }
