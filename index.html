@@ -9,36 +9,131 @@
 <body>
     <div class="wrapper">
         <header>
-            <div style="display: flex; justify-content: space-between; align-items: center;">
+            <nav class="nav-link">
+                <ul>
+                    <li><a href="#contacts">CONTACTS</a></li>
+                    <li><a href="#prof-summary">PROFILE SUMMARY</a></li>
+                    <li><a href="#lang">LANGUAGES</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#code-example">CODE EXAMPLE</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#work-exp">WORK EXPERIENCE</a></li>
+                </ul>
+            </nav>
+            <div class="topbar">
                 <h1>SEMISH<br>DARYA</h1>
                 <img src="assets/images/profile-photo.jpg" alt="Фото профиля" class="round-image">
             </div>
         </header>
-        <div>
-            <main>
-                <section> <!--Контактая информация -->
-                    <h2>CONTACTS</h2>
-                        <ul>
-                            <li>
-                                <a href="https://t.me/semishdarya" target="_blank"><img src="assets/icons/telegram.png" alt="Иконка телеграма" class="icon"></a>
-                                <p>@semishdarya</p>
-                            </li>
-                            <li>
-                                <a href="mailto:semisdasa@gmail.com" target="_blank"><img src="assets/icons/mail.png" alt="Иконка почты" class="icon"></a>
-                                <p>semisdasa@gmail.com</p>
-                            </li>
-                            <li>
-                                <a href="https://discord.gg/wPncwvdH" target="_blank"><img src="assets/icons/discord.png" alt="Иконка дискорда" class="icon"></a>
-                                <p>dashasemish</p>
-                            </li>
-                        </ul>
-                </section>   
-                <section>
-                    <h2>PROFILE SUMMARY</h2>
-                    <p>Hardworking, creative and goal oriented. Ambitious, eager to keep growing and evolving. Constantly developing new skills and abilities.</p>
-                </section>
-            </main>
-        </div>
+        <main>
+            <section id="contacts"><!--Контактная информация -->
+                <h2>CONTACTS</h2>
+                <ul>
+                    <li>
+                        <a href="https://t.me/semishdarya" target="_blank"><img src="assets/icons/telegram.png" alt="Иконка телеграма" class="icon"></a>
+                        <p>@semishdarya</p>
+                    </li>
+                    <li>
+                        <a href="mailto:semisdasa@gmail.com"><img src="assets/icons/mail.png" alt="Иконка почты" class="icon"></a>
+                        <p>semisdasa@gmail.com</p>
+                    </li>
+                    <li>
+                        <a href="https://discord.gg/wPncwvdH" target="_blank"><img src="assets/icons/discord.png" alt="Иконка дискорда" class="icon"></a>
+                        <p>dashasemish</p>
+                    </li>
+                </ul>
+            </section>   
+            <section id="prof-summary"> <!--Информация о себе-->
+                <h2>PROFILE SUMMARY</h2>
+                <p>Hardworking, creative and goal oriented. Ambitious, eager to keep growing and evolving. Constantly developing new skills and abilities.</p>
+            </section>
+            <section id="lang"> <!--Знания языков-->
+                <h2>LANGUAGES</h2>
+                <ul class="flower-list">
+                    <li>
+                        <p>Russian - <i>Native</i></p>
+                    </li>
+                    <li>
+                        <p>English - <i>Intermediate (B1)</i></p>
+                    </li>
+                </ul>
+            </section>
+            <section class="container" id="skills"> <!--Навыки-->
+                <div class="column">
+                    <h2>PROGRAMMING SKILLS</h2>
+                    <ul class="custom-list">
+                        <li>
+                            <p>Salesforce Development OOP</p>
+                        </li>
+                        <li>
+                            <p>HTML/CSS</p>
+                        </li>
+                        <li>
+                            <p>SQL</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h2>SOFT SKILLS</h2>
+                    <ul class="custom-list">
+                        <li>
+                            <p>Ability to work in a team</p>
+                        </li>
+                        <li>
+                            <p>Communication skills</p>
+                        </li>
+                        <li>
+                            <p>Hardworking</p>
+                        </li>
+                        <li>
+                            <p>Respectful attitude</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="code-example">
+                <h2>CODE EXAMPLE</h2>
+                <pre><code>
+                function multiply(a, b) {
+                    return a * b;
+                }
+            </code></pre>
+            </section>
+            <section id="education"> <!--Образование-->
+                <h2>EDUCATION</h2>
+                <div class="education">
+                    <p><i>2019 - 2023</i></p>
+                    <p>Yanka Kupala State University of Grodno Information Technology Software</p>
+                    <p><i>2021 - 2022</i></p>
+                    <p>Senla Software Engineering Laboratory Salesforce Development</p>
+                    <p><i>2021</i></p>
+                    <p>Web-design on Tilda</p>
+                </div>
+            </section>
+            <section id="work-exp"> <!--Опыт работы-->
+                <h2>WORK EXPERIENCE</h2>
+                <div class="container">
+                    <div class="sidebar">
+                        <p><i>2024 - current time</i></p>
+                    </div>
+                    <div class="content">
+                        <p>AZATI - Technical Support Engineer</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="container">            
+            <div class="bottom-column">
+                <a href="https://discord.gg/wPncwvdH" target="_blank"><img src="assets/icons/discord.png" alt="Иконка дискорда" class="icon"></a>
+                <p>dashasemish</p>
+            </div>
+            <div class="bottom-column">    
+                <p>2026</p>
+            </div>
+            <div class="bottom-column">  
+                <a href="https://rs.school/courses/javascript" target="_blank"><img src="assets/icons/rs-school-logo.svg" alt="Логотип RS School" class="rs-logo"></a>
+            </div>            
+        </footer>
     </div>
 </body>
 </html>
