@@ -6,15 +6,15 @@
 
 |Telegram|Email|Discord|
 |:---|:---|:---|
-| :iphone: [@semishdarya](https://t.me/semishdarya) | :envelope: [mail](mailto:semisdasa@gmail.com) | :desktop_computer: Discord: dashasemish |
+| :iphone: [@semishdarya](https://t.me/semishdarya) | :envelope: [mail](mailto:semisdasa@gmail.com) | :desktop_computer: [Discord](https://discord.gg/wPncwvdH) |
 
 ### PROFILE Summary
 Hardworking, creative and goal oriented. Ambitious, eager to keep growing and evolving. Constantly developing new skills and abilities.
 
 ### LANGUAGES
-Russian - ***Native**
+Russian - ***Native***
 
-English - ***Intermidiate (B1)***
+English - ***Intermediate (B1)***
 
 ### PROGRAMMING SKILLS
 - Salesforce Development OOP
@@ -26,11 +26,18 @@ English - ***Intermidiate (B1)***
 ### SOFT SKILLS
 - Ability to work in a team
 
-- Сommunicability
+- Communication skills
 
 - Hardworking
 
 - Respectful attitude
+
+### CODE EXAMPLE
+```
+function multiply(a, b){
+  return a * b;
+}
+```
 
 ### EDUCATION
 - Yanka Kupala State University of Grodno Information Technology Software
