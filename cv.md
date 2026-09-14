@@ -33,7 +33,8 @@ English - ***Intermediate (B1)***
 - Respectful attitude
 
 ### CODE EXAMPLE
-```function multiply(a, b){
+```
+function multiply(a, b){
   return a * b;
 }
 ```
