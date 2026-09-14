@@ -5,5 +5,8 @@
   },
   "scripts": {
     "lint:html": "linthtml source/*.html --config .linthtmlrc"
+  },
+  "dependencies": {
+    "highlight.js": "^11.12.0"
   }
 }
